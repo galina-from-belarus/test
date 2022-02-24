@@ -1,6 +1,6 @@
 <script src="assets/js/ajax-form.js" type="module"></script>
 <noscript> Для работы с данным сайтом необходим JavaScript </noscript>
-<form id="signup-form" data-action="./index.php" data-onsuccess-method="reload" method="POST">
+<form class="none" id="signup-form" data-action="./index.php" data-onsuccess-method="reload" method="POST">
     <input
         type="hidden"
         name="action"
