@@ -27,6 +27,7 @@ function error_message(form, errors) {
 }
 
 $(document).ready(function () {
+    $("form.none").removeClass(".");
     $("form").on('submit', function (e) {
         e.preventDefault();
         let form = $(this);

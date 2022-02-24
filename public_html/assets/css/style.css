@@ -1,3 +1,7 @@
+.none {
+    display: none! important;
+}
+
 .greeting {
     font-size: 2rem;
     text-align: center;
@@ -23,7 +27,7 @@ form > input {
 }
 
 .error-message.active {
-    display: inline-block!important;
+    display: inline-block !important;
 }
 
 .connection-error {
