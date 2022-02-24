@@ -1,0 +1,36 @@
+.greeting {
+    font-size: 2rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    padding: 2rem;
+}
+
+form > input {
+    margin: 1rem;
+}
+
+.error-message {
+    display: none;
+    color: #f00;
+    margin: 0;
+}
+
+.error-message > p {
+    margin: .25rem;
+}
+
+.error-message.active {
+    display: inline-block!important;
+}
+
+.connection-error {
+    display: none;
+    width: 100%;
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    font-size: 1.25rem;
+}
